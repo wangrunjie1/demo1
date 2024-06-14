@@ -1,0 +1,21 @@
+{
+  "name": "@clinks/traffic-source",
+  "version": "1.0.0",
+  "description": "记录会话级流量来源 https://www.tapd.cn/20118121/prong/stories/view/1120118121001022863",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-cookie": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8"
+  }
+}
